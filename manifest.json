@@ -1,0 +1,26 @@
+{
+	"name": "RockCilents",
+	"version": "1",
+	"manifest_version": 2,
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://*.krunker.io/*",
+		"http://127.0.0.1:8080/*"
+	],
+	"web_accessible_resources": [
+		"*.obj", 
+		"*.png",
+		"*.mp3",
+		"*.css",
+		"*.json",
+		"*.ttf",
+		"*.otf",
+		"*.ico",
+		"*.svg",
+		"*.txt"
+	],
+	"background": {
+		"scripts": ["init.js"]
+	}
+}
